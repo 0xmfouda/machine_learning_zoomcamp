@@ -63,6 +63,7 @@
 - Then delete the `churn` column from dataframes:
 
   ```python
+  del df_train['churn']
   del df_val['churn']
   del df_test['churn']
   ```
